@@ -81,7 +81,7 @@
           "foreground": "#ffffff",
           "background": "#a3be8c",
           "background_templates": ["{{ if .Error }}#bf616a{{ end }}"],
-          "template": " \ue23a ",
+          "template": "{{ if .Error }} \ue231 {{ else }} \ue23a {{ end }}",
           "properties": {
             "always_enabled": true
           },
@@ -130,7 +130,7 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": "\ue285 ",
+          "template": "🚀 ",
           "type": "text",
           "style": "plain"
         }
