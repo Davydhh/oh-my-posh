@@ -130,7 +130,7 @@
           "properties": {
             "cache_duration": "none"
           },
-          "template": "🚀 ",
+          "template": "\uf105 ",
           "type": "text",
           "style": "plain"
         }
